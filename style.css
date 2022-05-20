@@ -1,3 +1,22 @@
+.Rotate {
+  animation: rotation 2s infinite linear;
+} 
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+
+
+
+
+
+
+
 .First-Paragraph {
   background-color: black;
   color: Green;
@@ -10,3 +29,30 @@
   font-size: 50px;
   font-weight: bold;
   }
+
+.Me {
+  color: blue;
+  background-color: white;
+  margin: 30px;
+  width: 100px;
+  height: 30px;
+  display: inline-block;
+}
+
+.ME2 {
+   color: white;
+  background-color: black;
+  margin: 10px;
+  width: 150px;
+  height: 30px;
+  display: inline-block;
+}
+
+.Me3 {
+    color: white;
+  background-color: black;
+  margin: 10px;
+  width: 150px;
+  height: 30px;
+  display: inline-block;
+}
